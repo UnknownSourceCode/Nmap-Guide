@@ -1,0 +1,33 @@
+Extreme Command But Take Hours:
+nmap -sV -6 -p 1-65535 -T5 -O -A -v --script afp-path-vuln,allseeingeye-info,amqp-info,auth-spoof,backorifice-info,bacnet-info,bitcoin-info,bitcoinrpc-info,broadcast-db2-discover,broadcast-dhcp-discover,broadcast-dhcp6-discover,broadcast-dns-service-discovery,broadcast-listener,broadcast-ms-sql-discover,broadcast-netbios-master-browser,broadcast-ping,broadcast-sonicwall-discover,broadcast-upnp-info,cics-enum,cics-info,cics-user-enum,clamav-exec,cups-info,dict-info,distcc-cve2004-2687,dns-zeustracker,docker-version,domino-enum-users,drda-info,eap-info,enip-info,epmd-info,fcrdns,finger,fingerprint-strings,firewalk,firewall-bypass,freelancer-info,ftp-proftpd-backdoor,ftp-syst,ftp-vsftpd-backdoor,ganglia-info,giop-info,gkrellm-info,gopher-ls,gpsd-info,hbase-master-info,hbase-region-info,hddtemp-info,hnap-info,hostmap-robtex,http-affiliate-id,http-bigip-cookie,http-cookie-flags,http-csrf,http-dombased-xss,http-domino-enum-passwords,http-drupal-enum,http-enum,http-exif-spider,http-fileupload-exploiter,http-google-malware,http-iis-webdav-vuln,http-malware-host,http-phpself-xss,http-rfi-spider,http-robots.txt,http-robtex-reverse-ip,http-robtex-shared-ns,http-security-headers,http-slowloris-check,http-slowloris,http-sql-injection,http-stored-xss,http-svn-enum,http-trane-info,http-useragent-tester,http-userdir-enum,http-vmware-path-vuln,http-vuln-cve2006-3392,http-vuln-cve2009-3960,http-vuln-cve2010-0738,http-vuln-cve2010-2861,http-vuln-cve2011-3192,http-vuln-cve2011-3368,http-vuln-cve2012-1823,http-vuln-cve2013-0156,http-vuln-cve2013-6786,http-vuln-cve2013-7091,http-vuln-cve2014-2126,http-vuln-cve2014-2127,http-vuln-cve2014-2128,http-vuln-cve2014-2129,http-vuln-cve2014-3704,http-vuln-cve2014-8877,http-vuln-cve2015-1427,http-vuln-cve2015-1635,http-vuln-cve2017-1001000,http-vuln-cve2017-5638,http-vuln-cve2017-5689,http-vuln-cve2017-8917,http-vuln-misfortune-cookie,http-vuln-wnr1000-creds,http-waf-detect,http-waf-fingerprint,http-wordpress-enum,http-xssed,iax2-version,icap-info,iec-identify,ike-version,ipmi-cipher-zero,irc-botnet-channels,irc-info,iscsi-info,isns-info,jdwp-info,jdwp-version,krb5-enum-users,lexmark-config,maxdb-info,mcafee-epo-agent,membase-http-info,memcached-info,metasploit-info,mongodb-info,ms-sql-config,ms-sql-info,ms-sql-tables,ms-sql-xp-cmdshell,msrpc-enum,murmur-version,mysql-info,nbd-info,ncp-enum-users,ndmp-version,netbus-auth-bypass,netbus-info,nrpe-enum,ntp-info,openlookup-info,oracle-enum-users,p2p-conficker,pcworx-info,pptp-version,quake1-info,quake3-info,rdp-vuln-ms12-020,realvnc-auth-bypass,smb-double-pulsar-backdoor,smb-enum-domains,smb-enum-groups,smb-enum-processes,smb-enum-services,smb-enum-sessions,smb-enum-shares,smb-enum-users,smb-flood,smb-ls,smb-vuln-conficker,smb-vuln-cve-2017-7494,smb-vuln-cve2009-3103,smb-vuln-ms06-025,smb-vuln-ms07-029,smb-vuln-ms08-067,smb-vuln-ms10-054,smb-vuln-ms10-061,smb-vuln-ms17-010,smb-vuln-regsvc-dos,smtp-vuln-cve2010-4344,smtp-vuln-cve2011-1720,smtp-vuln-cve2011-1764,ssl-ccs-injection,ssl-dh-params,ssl-enum-ciphers,ssl-heartbleed,ssl-poodle,sslv2-drown,sslv2,stun-version,stuxnet-detect,tftp-enum,upnp-info iphere.com
+
+
+
+to Scan Vulnerabilities And Then Use Him With Metasploit
+nmap --script vuln 127.0.0.1 --reason
+
+
+
+
+
+
+
+
+To Save Results To Use Him With SearchSploit:
+nmap -sV -oX SearchSploit.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SearchSploit Using Nmap Specification:
+SearchSploit --nmap SearchSploit.xml
